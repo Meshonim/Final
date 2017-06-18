@@ -1,0 +1,49 @@
+﻿@model MvcPL.Models.ListLotViewModel
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Start date</th>
+            <th>End date</th>
+            <th>Picture</th>      
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (MvcPL.Models.LotViewModel item in Model.lots)
+        {
+            <tr>
+                <td>@Html.ActionLink(item.Name, "Details", "Lot", new { id = item.Id }, null)</td>               
+                <td>@item.StartDate.ToString("dd.MM.yyyy")</td>
+                <td>@item.EndDate.ToString("dd.MM.yyyy")</td>
+                @{
+            string base64 = null;
+            string imgSrc = null;
+            if (item.Picture != null)
+            {
+                base64 = Convert.ToBase64String(item.Picture);
+                imgSrc = string.Format("data:image/gif;base64,{0}", base64);
+            }
+                }
+                <td><img width="100" height="100" src='@imgSrc' class="lots" /></td>               
+            </tr>
+        }
+    </tbody>
+</table>
+<div id="pager" style="position: none;">
+    <form>
+        <img src="@Url.Content("~/Content/images/first.png")" class="first" />
+        <img src="@Url.Content("~/Content/images/prev.png")" class="prev" />
+        <input type="text" class="pagedisplay" />
+        <img src="@Url.Content("~/Content/images/next.png")" class="next" />
+        <img src="@Url.Content("~/Content/images/last.png")" class="last" />
+        <select class="pagesize">
+            <option selected="selected" value="3">3</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+    </form>
+</div>  
+
+

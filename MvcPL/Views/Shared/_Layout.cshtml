@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Auction</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Auction", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li></li>                 
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                   
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Sign up", "Register", "Account")</li>
+                        <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                    }
+                    else
+                    {
+                        if ((User.IsInRole("admin") || User.IsInRole("moder")))
+                        {
+                            if (User.IsInRole("admin"))
+                            {
+                                <li>
+                                    <a href="@Url.Action("Index", "User")" class="btn btn-info">
+                                        Manage users
+                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                            }
+                            <li><a href="@Url.Action("ShowUnchecked", "Home")" class="btn btn-warning">
+                                Lots for checking
+                                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                            </a></li>
+                        }
+                        <li><a href="@Url.Action("Create", "Lot")" class="btn btn-default">
+                            Expose goods
+                            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                        </a></li>
+                        <li>@Html.ActionLink("Hello, " + @User.Identity.Name, "Index", "Home")</li>
+                        <li>@Html.ActionLink("Logout", "Logoff", "Account")</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Internet Auction</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="@Url.Content("~/Scripts/jquery.tablesorter.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.tablesorter.pager.js")" type="text/javascript"></script>   
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+    @RenderSection("scripts", required: false)  
+    <script type="text/javascript">
+    $(function () {
+        $("table.table.table-striped").tablesorter({ widthFixed: true, sortList: [[0, 0]] })
+        .tablesorterPager({ container: $("#pager"), size: $(".pagesize option:selected").val() });
+    });
+    </script>
+    <script type="text/javascript">
+    jQuery.browser = {};
+    (function () {
+        jQuery.browser.msie = false;
+        jQuery.browser.version = 0;
+        if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+            jQuery.browser.msie = true;
+            jQuery.browser.version = RegExp.$1;
+        }
+    })();
+    </script>
+</body>
+</html>

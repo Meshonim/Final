@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "User list";
+}
+
+<div class="row text-center">
+    <h2>Current lots</h2>
+</div>
+
+<div class="row">
+    @Html.Partial("_UsersList", (MvcPL.Models.ListUserViewModel)ViewBag.users)
+</div>
+

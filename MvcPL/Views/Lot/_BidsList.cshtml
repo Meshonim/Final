@@ -1,0 +1,48 @@
+﻿@model MvcPL.Models.ListBidViewModel
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Date</th>
+            <th>Price</th>          
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (MvcPL.Models.BidViewModel item in Model.bids)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Date.ToString("dd.MM.yyyy")</td>
+                <td>@item.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div id="pager" style="position: none;">
+    <form>
+        <img src="@Url.Content("~/Content/images/first.png")" class="first" />
+        <img src="@Url.Content("~/Content/images/prev.png")" class="prev" />
+        <input type="text" class="pagedisplay" />
+        <img src="@Url.Content("~/Content/images/next.png")" class="next" />
+        <img src="@Url.Content("~/Content/images/last.png")" class="last" />
+        <select class="pagesize">
+            <option selected="selected" value="3">3</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+    </form>
+</div>
+<script>
+    function paginate()
+    {
+        {
+            $("table.table.table-striped").tablesorter({ widthFixed: true, sortList: [[0, 0]] })
+            .tablesorterPager({ container: $("#pager"), size: $(".pagesize option:selected").val() });
+        }
+    }
+</script>
+
+

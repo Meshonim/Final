@@ -1,0 +1,51 @@
+﻿@model MvcPL.Models.ListUserViewModel
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>User</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (MvcPL.Models.UserViewModel item in Model.Users)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>                
+                <td>@item.Email</td>
+                <td>@item.Role</td>
+                <td>@Html.ActionLink("Edit", "Update", "User", new { id = @item.Id }, new { @class = "btn btn-success" })</td>
+                <td>@using (Html.BeginForm("Delete", "User",
+            new { id = @item.Id },
+            FormMethod.Post,
+            null))
+            {
+            <input type="submit" class="btn btn-danger" value="Delete" />
+            }</td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+<div id="pager" style="position: none;">
+    <form>
+        <img src="@Url.Content("~/Content/images/first.png")" class="first" />
+        <img src="@Url.Content("~/Content/images/prev.png")" class="prev" />
+        <input type="text" class="pagedisplay" />
+        <img src="@Url.Content("~/Content/images/next.png")" class="next" />
+        <img src="@Url.Content("~/Content/images/last.png")" class="last" />
+        <select class="pagesize">
+            <option selected="selected" value="3">3</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+    </form>
+</div>

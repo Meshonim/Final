@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Main page";
+}
+     <div class="row text-center">
+         <h2>Current lots</h2>
+     </div>
+     
+
+<div class="row">
+    @Html.Partial("_LotsList", (MvcPL.Models.ListLotViewModel)ViewBag.lots)
+</div>
+<div class="row">
+    <div class="col-12 text-center">
+        <div class="search">
+
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+            {
+                @Html.TextBox("word", "", new { @class="form-control input-sm" })
+                <button type="submit" class="btn btn-primary btn-sm btnn" maxlength="64" placeholder="Search">Search</button>
+            }
+        </div>
+    </div>
+
+</div>

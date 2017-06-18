@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MvcPL.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MailBox" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">piratik45@gmail.com</Value>
+    </Setting>
+    <Setting Name="MailBoxPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Fakifak9a1a1a1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

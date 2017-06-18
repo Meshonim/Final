@@ -1,0 +1,100 @@
+﻿@model MvcPL.Models.LotViewModel
+
+@{
+    ViewBag.Title = Model.Name;
+}
+
+<div class="container" style="padding-top: 60px;">
+    <h1 class="page-header">@Model.Name</h1>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="text-center">
+                @{
+                    string base64 = null;
+                    string imgSrc = null;
+                    if (Model.Picture != null)
+                    {
+                        base64 = Convert.ToBase64String(Model.Picture);
+                        imgSrc = string.Format("data:image/gif;base64,{0}", base64);
+                    }
+                }
+                <img src='@imgSrc' class="lots img-circle img-thumbnail" alt="lot picture" />
+            </div>
+        </div>
+        @if ((User.IsInRole("admin") || User.IsInRole("moder")) && (Model.IsChecked == false))
+        {
+            using (Html.BeginForm("Verify", "Lot",
+            new { id = @Model.Id },
+            FormMethod.Post,
+            null))
+            {
+                <input type="submit" class="btn btn-success" value="Verify" />
+            }
+        }
+        @if (User.IsInRole("admin") || User.IsInRole("moder"))
+        {
+            using (Html.BeginForm("Delete", "Lot",
+            new { id = @Model.Id },
+            FormMethod.Post,
+            null))
+            {
+                <input type="submit" class="btn btn-danger" value="Delete" />
+            }
+        }
+        
+        <div class="col-md-8 personal-info">  
+                
+            <h3>Lot info</h3>
+               
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">Description</div>
+                <div class="panel-body"><p>@Model.Description</p></div>
+            </div>
+            <p><b>Start date:</b> @Model.StartDate.ToString("dd.MM.yyyy")</p>
+            <p><b>End date:</b> @Model.EndDate.ToString("dd.MM.yyyy")</p>
+            <p>
+                <b>Tags:</b>
+                @foreach (var item in Model.Tags)
+                {
+                    <br />@item.Name
+                }
+            </p>
+
+            
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Bids</h3>
+            </div>
+        </div>
+
+        @if (ViewBag.isBidPossible)
+        {
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    @Html.ActionLink("Make a bid", "CreateBid", "Lot", new { id = Model.Id }, new { @class = "btn btn-primary", align = "center" })
+                </div>
+            </div>
+        }        
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                @using (Ajax.BeginForm("_BidsList", new { id = Model.Id }, new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "fff", OnComplete = "paginate" }, new { }))
+                {
+                    <input type="submit" value="Refresh" class="btn btn-default" />
+                }
+            </div>
+        </div>
+        
+        <div id="fff">
+
+            @Html.Action("_BidsList", Model.Id)
+            
+        </div>
+    </div>
+
+</div>
+

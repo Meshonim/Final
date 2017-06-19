@@ -426,3 +426,254 @@ The statement has been terminated.
 2017-06-18 20:31:09.5358 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
 2017-06-18 20:31:09.5358 | TRACE | ORM.EntityModel | DbContext: SaveChanges
 2017-06-18 20:31:09.6508 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:44:21.5901 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:45:29.4405 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:46:28.5374 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:46:28.5374 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:46:28.8035 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:46:28.9765 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:47:44.1815 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:48:13.2380 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:48:13.2380 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:48:13.4071 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:48:43.2535 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:48:43.9377 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:48:43.9377 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:48:43.9787 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:49:00.3377 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:49:00.3377 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:49:00.3737 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:50:58.3782 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:51:57.8765 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:54:55.0524 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:56:38.7815 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:56:42.9777 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:56:42.9777 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:56:43.0227 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:56:43.1427 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 03:57:38.2460 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:57:38.3360 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:57:38.3360 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:57:38.3560 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:57:38.4620 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 03:58:46.7662 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 03:58:51.7065 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:58:51.7065 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:58:51.7365 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 03:58:52.8415 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 03:59:23.5021 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 03:59:23.5021 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 03:59:23.6631 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:02:28.6750 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:02:33.0972 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:02:33.0972 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:02:33.1542 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:02:33.2392 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:03:57.8641 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:04:01.4433 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:04:01.4433 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:04:01.5663 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:04:01.8373 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:05:29.6412 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:05:33.5064 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:05:33.5394 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:05:33.5734 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:05:33.7184 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:07:07.3715 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:07:11.1537 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:07:11.1537 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:07:11.2257 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:07:11.3077 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:08:50.5312 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:08:55.0224 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:08:55.2854 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:08:55.2854 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:08:55.3104 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:08:56.5225 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:12:36.7475 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:12:41.5038 | ERROR | MvcPL.Jobs.EmailSender | Error (mail sending iteration): System.InvalidOperationException: An object with the same key already exists in the ObjectStateManager. The ObjectStateManager cannot track multiple objects with the same key.
+   в System.Data.Entity.Core.Objects.ObjectContext.VerifyRootForAdd(Boolean doAttach, String entitySetName, IEntityWrapper wrappedEntity, EntityEntry existingEntry, EntitySet& entitySet, Boolean& isNoOperation)
+   в System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   в System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   в System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   в System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   в System.Data.Entity.Internal.InternalEntityEntry.set_State(EntityState value)
+   в System.Data.Entity.Infrastructure.DbEntityEntry`1.set_State(EntityState value)
+   в DAL.Concrete.LotRepository.Update(DalLot e) в c:\Users\Admin\Documents\Visual Studio 2013\Projects\House\DAL\Concrete\LotRepository.cs:строка 86
+   в BLL.LotService.Update(LotEntity lot) в c:\Users\Admin\Documents\Visual Studio 2013\Projects\House\BLL\Services\LotService.cs:строка 57
+   в MvcPL.Jobs.EmailSender.ProcessLot(LotEntity lot) в c:\Users\Admin\Documents\Visual Studio 2013\Projects\House\MvcPL\Jobs\EmailSender.cs:строка 53
+2017-06-19 04:16:44.6233 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:18:12.1643 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:18:44.4562 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:18:44.4842 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:18:50.3115 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:18:51.0756 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:18:51.0836 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:18:51.1286 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:19:03.8783 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:19:11.7877 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:19:11.7877 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:19:11.8168 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:19:11.9438 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:19:11.9718 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:19:12.0118 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:19:12.0118 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:19:12.0238 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:19:12.0778 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:21:15.1957 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:21:18.3089 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:21:18.3089 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:21:18.3089 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:21:18.3089 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:21:18.3499 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:21:18.4159 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:21:18.4989 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:22:31.3640 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:22:34.9182 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:22:34.9182 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:22:34.9562 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:22:47.2347 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:22:47.2367 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:22:47.2727 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:22:52.6750 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:22:52.6750 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:22:52.7600 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:22:54.0903 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:22:54.0903 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:22:54.1153 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:02.0496 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:02.0496 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:02.0816 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:09.7247 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:09.7247 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:09.8837 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:14.2652 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:14.2652 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:14.3102 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:16.0924 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:16.0924 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:16.1164 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:22.9334 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:22.9334 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:22.9684 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:28.9144 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:28.9144 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:28.9664 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:30.9230 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:23:40.7149 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:40.7149 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:40.7369 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:23:42.6182 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:23:42.6182 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:23:42.6452 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:24:17.5632 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:24:21.3414 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:24:21.3414 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:24:21.3414 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:24:21.3514 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:24:21.3964 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:24:21.3964 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:24:21.6354 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 04:24:55.2703 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:24:55.2703 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:24:55.2923 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:25:01.9009 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:25:01.9009 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:25:01.9359 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:25:59.4952 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:26:04.1685 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:26:04.1685 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:26:04.2425 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:26:05.5145 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 04:29:39.7770 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:29:43.3622 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:29:43.3622 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:29:43.4062 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:29:43.6442 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 04:32:07.5002 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:33:11.1969 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:34:08.1501 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:34:49.1275 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:34:53.8517 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:34:53.8847 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:34:55.7528 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:34:55.7848 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:34:55.8308 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:34:55.8668 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:35:06.3414 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:35:17.7811 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:35:26.5416 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:35:31.0289 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:35:31.0289 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:37:21.3222 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:37:24.9085 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:37:24.9085 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:37:24.9085 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:37:24.9185 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:37:24.9475 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:37:25.0435 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 04:37:25.1695 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:47:22.3755 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:47:26.3158 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:47:26.3158 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:47:26.3808 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:47:26.4608 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 04:47:26.5348 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:47:26.5348 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:47:26.5478 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:47:26.5758 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:50:09.7971 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:50:13.6643 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:50:13.8743 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:50:13.9373 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:50:13.9523 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:50:14.0543 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 04:50:14.1383 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:50:14.1973 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:50:14.1973 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:50:14.2223 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:50:14.3023 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 34, Name: Example): Emails were sended successfully!
+2017-06-19 04:51:27.3271 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:51:32.7955 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:51:34.0665 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:51:34.2125 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:51:34.4245 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:51:35.4466 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 04:52:44.4411 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:53:31.1180 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:53:31.1180 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:53:31.6440 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:53:43.7311 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:54:00.1650 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:54:00.2240 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:54:00.2240 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:54:00.2470 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:54:11.0605 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:54:11.0605 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:54:11.2815 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:54:35.8580 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:54:35.8580 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:54:35.9950 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:54:43.7715 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:54:46.6464 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:54:46.6874 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:54:46.6874 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:54:46.7114 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:55:37.0774 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:56:05.2202 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:56:05.2202 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:56:05.6183 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:58:06.0098 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 04:58:30.3382 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:58:30.3382 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:58:30.5242 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:58:30.5912 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:58:30.5912 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:58:30.6122 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:58:36.7203 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:58:36.7203 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:58:36.8183 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:58:36.8404 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 04:58:36.8404 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 04:58:36.8624 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 04:59:05.2681 | DEBUG | MvcPL.Jobs.EmailSender | Background

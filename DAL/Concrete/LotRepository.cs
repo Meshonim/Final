@@ -11,6 +11,7 @@ using System.Linq.Expressions;
 using ORM.Models;
 using DAL.Mappers;
 using DAL.Interfaces.EXPVisitor;
+using System.Diagnostics;
 
 
 namespace DAL.Concrete
@@ -82,6 +83,7 @@ namespace DAL.Concrete
                 lot.Tags.Add(tg);
             }
             context.Set<Lot>().AddOrUpdate(lot);
+            context.SaveChanges();
         }
     }
 }

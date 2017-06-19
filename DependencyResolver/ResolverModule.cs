@@ -58,7 +58,7 @@ namespace DependencyResolver
                 var sched = new StdSchedulerFactory().GetScheduler();
                 sched.JobFactory = new NinjectJobFactory(kernel);
                 return sched;
-            });
+            }).InSingletonScope();
 
             kernel.Bind<IUserService>().To<UserService>();
             kernel.Bind<IRepository<DalUser>>().To<UserRepository>();

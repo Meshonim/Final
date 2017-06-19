@@ -51,6 +51,7 @@ namespace MvcPL.Jobs
             {
                 lot.IsActive = false;
                 lotService.Update(lot);
+                Debug.Print("Update lot");
                 if (lot.Bids.Count > 0)
                 {
                     var seller = userService.GetOneByPredicate(u => u.ProfileId == lot.ProfileId);
@@ -89,7 +90,7 @@ namespace MvcPL.Jobs
                 var lots = lotService.GetAll();
                 foreach (var lot in lots)
                 {
-                    if ((DateTime.Now >= lot.EndDate) && (lot.IsActive == true) && (lot.IsChecked == true))
+                    if ((DateTime.Now.Date >= lot.EndDate.Date) && (lot.IsActive == true) && (lot.IsChecked == true))
                     {
                         ProcessLot(lot);                  
                     }

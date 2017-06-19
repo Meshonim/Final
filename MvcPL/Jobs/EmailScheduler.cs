@@ -21,7 +21,6 @@ namespace MvcPL.Jobs
 
             public static void Start()
             {
-                //IScheduler scheduler = StdSchedulerFactory.GetDefaultScheduler();
                 Scheduler.Start();
 
                 IJobDetail job = JobBuilder.Create<EmailSender>().Build();

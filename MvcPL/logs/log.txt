@@ -677,3 +677,10 @@ The statement has been terminated.
 2017-06-19 04:58:36.8404 | TRACE | ORM.EntityModel | DbContext: SaveChanges
 2017-06-19 04:58:36.8624 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
 2017-06-19 04:59:05.2681 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 05:04:08.6111 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 05:04:12.8553 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 05:04:13.2774 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 05:04:13.2774 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 05:04:13.2954 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 05:04:13.5034 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 05:05:08.0883 | DEBUG | MvcPL.Jobs.EmailSender | Background

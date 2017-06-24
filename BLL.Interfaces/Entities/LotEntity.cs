@@ -24,8 +24,8 @@ namespace BLL.Interfaces.Entities
 
         public byte[] Picture { get; set; }
 
-        public virtual ICollection<TagEntity> Tags { get; set; }
-        public virtual ICollection<BidEntity> Bids { get; set; }
+        public ICollection<TagEntity> Tags { get; set; }
+        public ICollection<BidEntity> Bids { get; set; }
 
         public int ProfileId { get; set; }
     }

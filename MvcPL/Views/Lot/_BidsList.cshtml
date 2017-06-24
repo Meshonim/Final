@@ -9,7 +9,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (MvcPL.Models.BidViewModel item in Model.bids)
+        @foreach (MvcPL.Models.BidViewModel item in Model.List)
         {
             <tr>
                 <td>@item.Name</td>
@@ -36,8 +36,7 @@
     </form>
 </div>
 <script>
-    function paginate()
-    {
+    function paginate() {
         {
             $("table.table.table-striped").tablesorter({ widthFixed: true, sortList: [[0, 0]] })
             .tablesorterPager({ container: $("#pager"), size: $(".pagesize option:selected").val() });

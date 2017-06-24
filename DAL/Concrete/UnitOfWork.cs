@@ -31,9 +31,9 @@ namespace DAL.Concrete
                 {
                     Context.SaveChanges();
                 }
-                catch (DbEntityValidationException ve)                   
+                catch (DbEntityValidationException ex)                   
                 {
-                    foreach (var eve in ve.EntityValidationErrors)
+                    foreach (var eve in ex.EntityValidationErrors)
                     {
                         log.Error("Error: Entity (\"{0}\") in state \"{1}\" had the following validation errors:",
                             eve.Entry.Entity.GetType().Name, eve.Entry.State);
@@ -43,12 +43,12 @@ namespace DAL.Concrete
                                 vle.PropertyName, vle.ErrorMessage);
                         }
                     }
-                    throw;
+                    throw new ApplicationException("There was an error while working with database. Please see InnerException for more details", ex);
                 }
-                catch (DataException de)
+                catch (DataException ex)
                 {
-                    log.Error("Error: DataException occured while commiting" + de.ToString() );
-                    throw;
+                    log.Error("Error: DataException occured while commiting" + ex.ToString() );
+                    throw new ApplicationException("There was an error while working with database. Please see InnerException for more details", ex);
                 }
             }
             log.Trace("Commited successfully");

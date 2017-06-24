@@ -116,7 +116,7 @@ namespace MvcPL.Infrastructure.Mappers
         {
             if (model == null)
                 return null;
-            return new LotViewModel
+            var result =  new LotViewModel
             {
                 Id = model.Id,
                 Description = model.Description,
@@ -129,6 +129,8 @@ namespace MvcPL.Infrastructure.Mappers
                 ProfileId = model.ProfileId,
                 Tags = model.Tags.Select(t => t.ToTagViewModel()).ToList()
             };
+            return result;
+
         }
     #endregion
     }

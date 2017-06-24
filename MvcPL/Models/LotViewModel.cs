@@ -21,8 +21,8 @@ namespace MvcPL.Models
         public String Description { get; set; }
 
         public byte[] Picture { get; set; }
-
-        public virtual ICollection<TagViewModel> Tags { get; set; }
+        public ListBidViewModel Bids { get; set; }
+        public ICollection<TagViewModel> Tags { get; set; }
 
         public int ProfileId { get; set; }
     }

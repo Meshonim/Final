@@ -33,16 +33,31 @@ namespace MvcPL.Controllers
             return View();
         }
 
+        public ActionResult BidsIndex(int? id)
+        {
+            var lot = lotService.GetById(id.Value);
+            var model = lot.ToLotViewModel();
+            model.Bids = GetBidsList(lot);
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("_BidsList", model.Bids);
+            }
+            else
+            {
+                var user = userService.GetOneByPredicate(u => u.Name == User.Identity.Name);
+                ViewBag.isBidPossible = CheckBidPossibility(user, lot);  
+                return View("Details", model);
+            }
+        }
 
-        [Authorize]
-        
-        public ActionResult _BidsList(int? id)
+        [NonAction]
+
+        public ListBidViewModel GetBidsList(LotEntity lot)
         {
             ListBidViewModel model = new ListBidViewModel();
-            model.bids = new List<BidViewModel>();
-            if (id != null)
-            {
-                var lot = lotService.GetById(id.Value);                              
+            model.List = new List<BidViewModel>();
+            if (lot != null)
+            {                            
                 foreach (BidEntity bidEntity in lot.Bids)
                 {
                     BidViewModel bidViewModel = bidEntity.ToBidViewModel();
@@ -55,10 +70,10 @@ namespace MvcPL.Controllers
                     {
                         bidViewModel.Name = "Unknown";
                     }
-                    model.bids.Add(bidViewModel);
+                    model.List.Add(bidViewModel);
                 }             
             }
-            return PartialView(model);
+            return model;
         }
 
         [NonAction]
@@ -89,6 +104,7 @@ namespace MvcPL.Controllers
             var user = userService.GetOneByPredicate(u => u.Name == User.Identity.Name);
             ViewBag.isBidPossible = CheckBidPossibility(user, lot);         
             var model = lot.ToLotViewModel();
+            model.Bids = GetBidsList(lot);
             return View(model);
         }
 

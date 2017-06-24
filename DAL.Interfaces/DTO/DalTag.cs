@@ -17,6 +17,6 @@ namespace DAL.Interfaces.DTO
 
         public string Name { get; set; }
 
-        public virtual ICollection<DalLot> Lots { get; set; }
+        public ICollection<DalLot> Lots { get; set; }
     }
 }

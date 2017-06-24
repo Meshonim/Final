@@ -7,6 +7,6 @@ namespace MvcPL.Models
 {
     public class ListBidViewModel
     {
-        public List<BidViewModel> bids { get; set; }
+        public List<BidViewModel> List { get; set; }
     }
 }

@@ -15,8 +15,8 @@ namespace BLL.Interfaces.Entities
         }
         public int Id { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<LotEntity> Lots { get; set; }
-        public virtual ICollection<BidEntity> Bids { get; set; }
+        public ICollection<LotEntity> Lots { get; set; }
+        public ICollection<BidEntity> Bids { get; set; }
 
     }
 }

@@ -684,3 +684,214 @@ The statement has been terminated.
 2017-06-19 05:04:13.2954 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
 2017-06-19 05:04:13.5034 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
 2017-06-19 05:05:08.0883 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 05:14:29.3230 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 14:09:42.6876 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 14:10:39.1185 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 14:17:46.1895 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 14:17:52.4479 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 14:17:52.8559 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 14:17:52.8559 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 14:17:52.9779 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 14:17:53.2429 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 15:19:09.6085 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:20:08.9891 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:21:08.9890 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:22:09.0070 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:23:08.9882 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:23:27.7649 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 15:23:27.7649 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:23:28.1029 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 15:24:08.9867 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:24:34.5610 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:24:34.6320 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 15:24:34.6980 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:24:34.7820 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 15:24:52.1643 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 15:24:52.1643 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:24:52.3133 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 15:25:08.9870 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:25:48.3267 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 15:25:48.3267 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:25:48.4337 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 15:25:48.4647 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 15:25:48.4667 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:25:48.4907 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 15:26:08.9829 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:27:08.9916 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:28:52.6524 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:28:58.4417 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:28:59.1618 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 15:28:59.1618 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:28:59.1898 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-19 15:28:59.4428 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 30, Name: Ferrari): Emails were sended successfully!
+2017-06-19 15:29:51.9399 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:37:14.5756 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:38:13.8096 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:39:13.8083 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-19 15:39:19.5033 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-19 15:39:19.5033 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-19 15:39:19.8623 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-23 02:02:39.6840 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:03:03.7013 | ERROR | MvcPL.Jobs.EmailSender | Error (mail sending): System.Data.SqlClient.SqlException (0x80131904): Cannot create file 'C:\Users\Admin\Documents\Visual Studio 2013\Projects\House\MvcPL\App_Data\Auction.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass18.<CreateDatabaseFromScript>b__17(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.Infrastructure.MigratorBase.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Migrations.Infrastructure.MigratorBase.Update()
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext)
+   в System.Data.Entity.Database.Create(Boolean skipExistsCheck)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClasse`1.<CreateInitializationAction>b__d()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.Initialize()
+   в System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   в System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   в System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   в System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в DAL.Concrete.LotRepository.GetAll() в c:\Users\Admin\Documents\Visual Studio 2013\Projects\House\DAL\Concrete\LotRepository.cs:строка 33
+   в BLL.LotService.GetAll() в c:\Users\Admin\Documents\Visual Studio 2013\Projects\House\BLL\Services\LotService.cs:строка 34
+   в MvcPL.Jobs.EmailSender.Execute(IJobExecutionContext context) в c:\Users\Admin\Documents\Visual Studio 2013\Projects\House\MvcPL\Jobs\EmailSender.cs:строка 90
+ClientConnectionId:049205e4-9f89-401e-87e5-9d39d051b507
+Error Number: 5170, State: 1, Class: 16
+2017-06-23 02:03:37.4175 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:04:37.4121 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:05:37.4177 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:06:37.4085 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:07:37.4193 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:08:37.4207 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:11:56.6109 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:16:02.1453 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:16:56.2240 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-23 02:16:56.2270 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-23 02:16:57.6934 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-23 02:16:58.4571 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-23 02:16:58.4571 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-23 02:16:59.0300 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-23 02:18:18.6099 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-23 02:19:19.3722 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-24 23:46:11.8133 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-24 23:46:23.2290 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-24 23:46:23.5850 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-24 23:46:23.7120 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-24 23:46:23.8170 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-24 23:46:25.1231 | INFO | MvcPL.Jobs.EmailSender | Auction (LotId: 42, Name: Lt): Emails were sended successfully!
+2017-06-25 00:06:01.8337 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:07:01.2111 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:11:14.5556 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:21:58.8855 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:22:20.9827 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:23:20.2451 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:24:26.0119 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:24:52.4434 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:25:51.5938 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:26:48.0880 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:28:57.2464 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:29:56.7428 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:30:30.1517 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:31:09.3579 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:31:09.3579 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:31:09.5850 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:31:29.5181 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:31:33.1083 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:31:33.1083 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:31:33.1823 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:32:29.5195 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:33:29.5200 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:33:36.6014 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:33:36.6014 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:33:36.6864 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:34:29.5214 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:35:29.5228 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:36:42.8960 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:37:42.1484 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:38:17.3544 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:38:17.3544 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:38:17.8124 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:38:42.1578 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:39:00.9429 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:39:00.9429 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:39:01.0119 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:39:47.2185 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:40:11.6039 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:40:11.6039 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:40:11.8159 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:40:46.3199 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:41:46.3253 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:42:46.3228 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:43:46.3592 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:44:46.3276 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:44:56.8752 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:44:56.8752 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:44:56.9792 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:45:04.9857 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:45:04.9857 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:45:05.1597 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:45:27.9770 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:46:13.4236 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:13.4236 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:13.5836 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:15.3537 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:15.3537 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:15.3537 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:16.3898 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:16.3898 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:16.3998 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:16.8808 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:16.8808 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:16.8808 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:17.3468 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:17.3468 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:17.3468 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:17.7529 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:17.7529 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:17.7529 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:18.1929 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:18.1929 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:18.2559 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:21.3571 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:21.3571 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:21.3571 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:21.6231 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:21.6231 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:21.6231 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:27.4084 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:46:30.3786 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:30.3786 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:30.3786 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:31.8307 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:31.8307 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:31.8497 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:39.0701 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:39.0701 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:39.0761 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:46:51.2738 | TRACE | DAL.Concrete.UnitOfWork | Commit: start
+2017-06-25 00:46:51.2748 | TRACE | ORM.EntityModel | DbContext: SaveChanges
+2017-06-25 00:46:51.3268 | TRACE | DAL.Concrete.UnitOfWork | Commited successfully
+2017-06-25 00:47:27.3938 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:48:27.3983 | DEBUG | MvcPL.Jobs.EmailSender | Background
+2017-06-25 00:49:27.3927 | DEBUG | MvcPL.Jobs.EmailSender | Background

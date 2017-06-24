@@ -24,8 +24,8 @@ namespace DAL.Interfaces.DTO
 
         public byte[] Picture { get; set; }
 
-        public virtual ICollection<DalTag> Tags { get; set; }
-        public virtual ICollection<DalBid> Bids { get; set; }
+        public ICollection<DalTag> Tags { get; set; }
+        public ICollection<DalBid> Bids { get; set; }
 
         public int ProfileId { get; set; }
     }

@@ -82,7 +82,7 @@
 
         <div class="row">
             <div class="col-md-12 text-center">
-                @using (Ajax.BeginForm("_BidsList", new { id = Model.Id }, new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "fff", OnComplete = "paginate" }, new { }))
+                @using (Ajax.BeginForm("BidsIndex", new { id = Model.Id }, new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "fff", OnComplete = "paginate" }, new { }))
                 {
                     <input type="submit" value="Refresh" class="btn btn-default" />
                 }
@@ -91,7 +91,7 @@
         
         <div id="fff">
 
-            @Html.Action("_BidsList", Model.Id)
+            @Html.Partial("_BidsList", Model.Bids)
             
         </div>
     </div>
